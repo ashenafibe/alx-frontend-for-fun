@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="02-styles.css">
+    <link rel="stylesheet" href="03-styles.css">
   </head>
   <body>
     <!– Header –>
@@ -142,38 +142,59 @@
               </div>
             </aside>
           </div>
-       <section class="post-comments">
-        <header> 
-           <h2 class="section-title"> Leave a comment</h2>
-           <p>All fields are required.</p>
-        </header>
-        <form action="#" Method="post">
-     <fieldset> <legend class="visually-hidden"> Your personal information</legend>
-    <div classes ="form-group col-1-2">
-    </div>
-    <div classes ="form-group col-1-2">
+          <section class="post-comments">
+              <header>
+                <h2 class="section-title">Leave a comment</h2>
+                <p>All fields are required.</p>
+              </header>
+              <form action="#" method="post">
+                <fieldset>
+                  <legend class="visually-hidden">Your personal information</legend>
+                  <div class="form-group col-1-2">
+                 <lable for="your-first-name">First Name</lable>
+                 <div class="form-field">
+                  <span class="form-field-container"></span>
+                 </div>
+                  </div>
+                  <div class="form-group col-1-2">
+                    <lable for="your-last-name">Last Name</lable>
+                    <div class="form-field">
+                      <span class="form-field-container"></span>
+                     </div>
+                  </div>
+                  <div class="form-group col-2-3">
+                    <lable for="your-email">Email</lable>
+                    <div class="form-field">
+                      <span class="form-field-container"></span>
+                     </div>
 
-    </div>
-    <div classes ="form-group col-2-3">
 
-    </div>
-    </fieldset>
+                  </div>
+                </fieldset>
+                <fieldset>
+                  <legend class="visually-hidden">Your comment</legend>
+                  <div class="form-group col-2-3">
+                    <lable for="your-title">Title</lable>
+                    <div class="form-field">
+                      <span class="form-field-container"></span>
+                     </div>
 
-    <fieldset>
-      <legend class="visually-hidden">Your comment</legend>
+                  </div>
+                  <div class="form-group col-2-3">
+                    <lable for="your-comment">Comment</lable>
+                    <div class="form-field">
+                      <span class="form-field-container"></span>
+                     </div>
 
-      <div classes ="form-group col-2-3">
-      </div>
-      <div classes ="form-group col-2-3">
-  
-      </div>
-      <div classes ="form-group">
-  
-      </div>
-    </fieldset>
-        </form >
-         </section>
+                  </div>
+                  <div class="form-group">
+                    <button class="button button-primary">Post my comment </button>
+                     </div>
 
+                  </div>
+                </fieldset>
+              </form>
+          </section>
         </div>
       </div>
     </main>
