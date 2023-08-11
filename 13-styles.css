@@ -1,0 +1,15 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 115px;
+    padding-top: 30px;
+    transition: height .3s ease;
+    margin-top: 25px;
+}

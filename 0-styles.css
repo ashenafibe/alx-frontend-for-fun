@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+ul{
+
+display: flex;
+list-style: none;
+max-width: 900px;
+
+
+}
+.icon{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 290px;
+    height: 385px;
+    background-image:url("images/0-sprite.png");
+    border:solid black 1px;
+    margin:25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    padding: 15px;
+    border-radius: 3%;
+
+}
+
+.i-html {
+    background-position: -20px 26px ; 
+    /* background-image:url("images/0-sprite.png") -20px 30px no-repeat; */
+   
+    }
+
+
+.i-css
+{
+    background-position: -310px 26px;
+
+}
+.i-js
+{
+    background-position: -600px 26px;
+
+}
