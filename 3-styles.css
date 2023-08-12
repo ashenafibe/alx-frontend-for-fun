@@ -1,7 +1,6 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
-
 .menu {
     display: flex;
     flex-flow: column nowrap;
@@ -11,7 +10,7 @@
     height: 115px;
     padding-top: 30px;
     transition: height .3s ease;
-    margin-top: 25px;
+    margin-top:25px;
 }
 .menu-open {
     display: none;
@@ -21,7 +20,6 @@
     height: 460px;
     transition: height .3s ease;
 }
-
 .menu-open-button {
     width: 85px;
     height: 85px;
@@ -46,52 +44,44 @@
     width: 60px;
     margin-bottom: 20px;
 }
-
 .menu-line {
     width: 28px;
     height: 3px;
     background-color: #ffffff;
     margin: 3px;
 }
-
 .menu-open:checked + .menu-open-button .menu-line-1 {
     transform: rotate(45deg);
     height: 2px;
     width: 23px;
     position: absolute;
 }
-
 .menu-open:checked + .menu-open-button .menu-line-2 {
     transform: rotate(-45deg);
     height: 2px;
     width: 23px;
     position: absolute;
 }
-
 .menu-open:checked + .menu-open-button .menu-line-3 {
     display: none;
-} 
-
-
+}
 .menu-item {
     margin-bottom: 10px;
     text-decoration: none;
     background-color: #c81938;
     color: #ffffff;
-    height: 100px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     border: 1px solid #a7253d;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .menu-item:hover {
     background-color: #ffffff;
     color: #c81938;
 }
-
 .menu-open:not(:checked) ~ .menu-item {
     display: none;
 }
